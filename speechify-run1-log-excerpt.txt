@@ -1,0 +1,12 @@
+2026-08-18 08:53:02.796 | INFO | [run_id=1] | service_factory.py:564 | Creating TTS service: provider=ServiceProviders.SPEECHIFY, model=simba-3.2
+2026-08-18 08:53:02.821 | INFO | [run_id=1] | pipeline_builder.py:15 | Creating pipeline components with audio config: AudioConfig(transport_in_sample_rate=16000, transport_out_sample_rate=16000, vad_sample_rate=16000, pipeline_sample_rate=16000, buf
+2026-08-18 08:53:02.875 | DEBUG | [run_id=1] | pipeline_builder.py:192 | Setting pipeline audio params - in: 16000Hz, out: 16000Hz
+2026-08-18 08:53:02.919 | DEBUG | [run_id=1] | frame_processor_metrics.py:298 | SpeechifyTTSService#0 text aggregation time: 0.015971899032592773
+2026-08-18 08:53:02.920 | DEBUG | [run_id=1] | tts_service.py:1272 | SpeechifyTTSService#0: Generating TTS [Hello!]
+2026-08-18 08:53:03.792 | DEBUG | [run_id=1] | frame_processor_metrics.py:281 | SpeechifyTTSService#0 usage characters: 6
+2026-08-18 08:53:03.793 | DEBUG | [run_id=1] | frame_processor_metrics.py:133 | SpeechifyTTSService#0 TTFB: 0.873s
+2026-08-18 08:53:03.794 | DEBUG | [run_id=1] | frame_processor_metrics.py:182 | SpeechifyTTSService#0 TTFA: 0.876s (0.003s leading silence)
+2026-08-18 08:53:03.845 | DEBUG | [run_id=1] | frame_processor_metrics.py:221 | SpeechifyTTSService#0 processing time: 0.925s
+2026-08-18 08:53:03.845 | DEBUG | [run_id=1] | frame_processor_metrics.py:298 | SpeechifyTTSService#0 text aggregation time: 0.00010418891906738281
+2026-08-18 08:53:03.845 | DEBUG | [run_id=1] | xml_function_tag_filter.py:130 | XMLFunctionTagFilter: No XML function tags found in text: 'This is the Dograh Speechify integration test.'...
+2026-08-18 08:53:03.845 | DEBUG | [run_id=1] | tts_service.py:1272 | SpeechifyTTSService#0: Generating TTS [This is the Dograh Speechify integration test.]
